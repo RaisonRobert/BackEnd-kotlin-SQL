@@ -1,6 +1,6 @@
-package com.example.BackEndSql.repository
+package com.example.backendsql.repository
 
-import com.example.BackEndSql.model.Book
+import com.example.backendsql.model.Book
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Query
 import org.springframework.data.repository.query.Param

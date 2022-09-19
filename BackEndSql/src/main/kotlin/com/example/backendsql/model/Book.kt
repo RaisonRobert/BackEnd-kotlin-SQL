@@ -1,5 +1,6 @@
-package com.example.BackEndSql.model
+package com.example.backendsql.model
 
+import org.hibernate.Hibernate
 import javax.persistence.*
 
 @Entity
