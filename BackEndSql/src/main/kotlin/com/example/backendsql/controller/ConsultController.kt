@@ -53,7 +53,7 @@ class ConsultController (
     }
     @PostMapping("/filter")
     fun getConsultByPacient(
-        @RequestParam("title",required = true)pacient:String)
+        @RequestParam("pacient",required = true)pacient:String)
             :List<Consult> = consultRepository.findConsultByPacient(pacient)
 
 }
