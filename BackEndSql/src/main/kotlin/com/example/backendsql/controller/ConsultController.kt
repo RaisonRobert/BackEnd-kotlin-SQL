@@ -14,7 +14,7 @@ class ConsultController (
     @Autowired private val consultRepository : ConsultRepository
 ){
     @GetMapping()
-    fun getAllBooks():List<Consult> = consultRepository.findAll()
+    fun getAllConsult():List<Consult> = consultRepository.findAll()
 
     @PostMapping()
     fun createNewConsult(@Validated @RequestBody consult: Consult) : Consult
